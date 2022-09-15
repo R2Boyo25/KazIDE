@@ -1,0 +1,18 @@
+{
+    "author": "r2boyo25",
+    "repo": "kazide",
+    "binname": "kazide",
+    "installScript": ".avalon/gen.py",
+    "mvBinAfterInstallScript": true,
+    "deps": {
+        "avalon": [
+            "r2boyo25/kazmoduleloader"
+        ],
+        "pip": [
+            "dearpygui"
+        ]
+    },
+    "toCopy": [
+        "all"
+    ]
+}
